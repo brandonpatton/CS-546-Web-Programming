@@ -1,0 +1,10 @@
+<main>
+    {{#if success}}
+        <p class = "success">Input: {{data}}</p>
+        <p>Success, {{data}} is a palindrome.</p>
+    {{/if}}
+    {{#if failure}}
+        <p class = "failure">Input: {{data}}</p>
+        <p>Failure, {{data}} is not a palindrome.</p>
+    {{/if}}
+</main>

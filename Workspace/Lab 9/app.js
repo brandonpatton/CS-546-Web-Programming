@@ -1,0 +1,20 @@
+const express = require("express");
+const bodyParser = require("body-parser");
+const app = express();
+const static = express.static(__dirname + "/public");
+
+const configRoutes=require("./routes");
+
+app.use("/public",static);
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:true}));
+app.set('views', __dirname + '/views');
+app.engine('html', require('ejs').renderFile);
+
+configRoutes(app);
+
+app.listen(3000,() => 
+{
+    console.log("We have a server!");
+    console.log("Routes running on http://localhost:3000");
+})

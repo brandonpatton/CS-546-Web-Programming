@@ -1,0 +1,17 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "Asynchronous Code, Files, and Promises",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "mongodb": "^3.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Patton 10422652",
+  "license": "ISC"
+}

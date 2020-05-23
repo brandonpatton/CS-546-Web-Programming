@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>The Best Palindrome Checker in the World!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../public/css/style.css">
+    </head>
+    <body>
+        <h1>Palindrome Checker</h1>
+        <p>A palindrome is a phrase that is spelled the same way, backwards and forwards (ignoring spacing and punctuation).</p>
+        <form id="static-form">
+            <label for="palindrome">Input a Palindrome To Be Checked:</label><br>
+            <textarea name="phrase" id="palindrome" cols="50" rows="10">Enter Palindrome Here</textarea>
+            <button type="submit">Evaluate</button>
+        </form>
+        
+        <div id="error" class="error" hidden>
+            Error:
+        </div>
+        <div>
+            <ol id="attempts" class = 'is-palindrome'></ol>
+        </div>
+        <footer>
+            Brandon Patton
+            10422652
+            Junior CS Student at Stevens
+        </footer>
+        <script src ="../public/js/palindrome.js"></script>
+    </body> 
+</html>

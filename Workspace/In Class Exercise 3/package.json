@@ -1,0 +1,18 @@
+{
+  "name": "in-class-exercise-3",
+  "version": "1.0.0",
+  "description": "Band Application Continued",
+  "main": "app.js",
+  "dependencies": {
+    "mongo": "^0.1.0",
+    "mongodb": "^3.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./tasks/seed.js"
+  },
+  "author": "Brandon Patton 10422652",
+  "license": "ISC"
+}

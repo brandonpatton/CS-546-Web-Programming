@@ -1,0 +1,12 @@
+{
+  "name": "in_class_exercise_1",
+  "version": "1.0.0",
+  "description": "Using Modules",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Brandon Patton",
+  "license": "ISC"
+}
