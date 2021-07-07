@@ -17,10 +17,10 @@ const constructorMethod = (router) => {
   router.get("/education", async (req, res) => {
     try {
       const hillside = {
-          "schoolName": "Hillside Elementary School",
-          "degree": "Elementary School Graduate",
-          "favoriteClass": "Science",
-          "favoriteMemory": "Walking from school to my friends house and going on his trampoline"
+        "schoolName": "Hillside Elementary School",
+        "degree": "Elementary School Graduate",
+        "favoriteClass": "Science",
+        "favoriteMemory": "Walking from school to my friends house and going on his trampoline"
       }
       const middle = {
         "schoolName": "Heritage Middle School",
