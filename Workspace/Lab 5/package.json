@@ -10,6 +10,6 @@
   "author": "Brandon Patton 10422652",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
